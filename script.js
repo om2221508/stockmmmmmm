@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const intlStocksList = document.getElementById('intl-stocks-list');
     const indianStocksList = document.getElementById('indian-stocks-list');
 
-    const API_KEY = 'ILY444OSRM6SSBVJ';  // Replace with your actual API key
+    const API_KEY = 'G2Y0Q0W70RG9F0Y0';  // Replace with your actual API key
     const BASE_URL = 'https://www.alphavantage.co/query';
 
     const fetchStockData = async (symbol, listElement) => {
